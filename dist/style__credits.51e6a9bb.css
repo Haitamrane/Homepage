@@ -1,0 +1,54 @@
+body {
+  background: url("background.004d778f.jpg") no-repeat;
+  background-size: auto;
+}
+
+.only__credits {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.return__button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.character__Yellow {
+  position: absolute;
+  left: 8px;
+  top: 628px;
+}
+
+.character__CRS {
+  position: absolute;
+  left: 970px;
+  top: 629px;
+}
+
+.sound__on {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  display: block;
+}
+
+.sound__off {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  display: none;
+}
+
+.sound__on.is-active {
+  display: none;
+}
+
+.sound__off.is-active {
+  display: block;
+}

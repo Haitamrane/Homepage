@@ -1,0 +1,77 @@
+body {
+  background: url(/img/background.jpg) no-repeat;
+}
+.section__main {
+  display: flex;
+  justify-content: center; 
+}
+
+.image__logo {
+  width: 728.36px;
+  height: 361.17px;
+  position: absolute;
+}
+
+.button__play {
+  position: absolute;
+  left: 465.27px;
+  top: 410px;
+}
+
+.button__credit {
+  position: absolute;
+  left: 489px;
+  top: 655px;
+}
+
+.character__Yellow {
+  position: absolute;
+  left: 8px;
+  top: 628px;
+}
+
+.character__CRS {
+  position: absolute;
+  left: 970px;
+  top: 629px;
+}
+
+.controls__p1 {
+  position: absolute;
+  width: 231px;
+  height: 152px;
+  left: 35px;
+  top: 424px;
+}
+
+.controls__p2 {
+  position: absolute;
+  width: 231px;
+  height: 152px;
+  left: 1014px;
+  top: 424px; 
+}
+
+.sound__on {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  display: block;
+}
+
+.sound__off {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  display: none;
+}
+
+.sound__on.is-active {
+  display: none;
+}
+
+.sound__off.is-active {
+  display: block;
+}
